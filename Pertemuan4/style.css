@@ -1,0 +1,33 @@
+p{
+    /* color: green;
+    font-size: 20px; */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    
+    /* color: #4cce15; */
+    /* color: rgb(red, green, blue); */
+}
+
+.box{
+    background-color: blue;
+    width: 250px;
+    height: 20px;
+    border: 2px solid black;
+
+    /* text-align: center; */
+
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    
+
+    padding-left: 50px;
+
+    display: inline;
+    /* display: block;  agar box tidak kesamping */
+}
+
