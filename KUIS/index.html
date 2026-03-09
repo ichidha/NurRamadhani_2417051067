@@ -1,40 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>kuis pemweb</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="box">
-        <div class="image">
-        <img src="https://tse1.mm.bing.net/th/id/OIP.1KyWVY4klYwdhx3yolr2LAHaHa?pid=Api&P=0&h=180" alt="" width="50" height="50" >
-        </div>
-        <p>Selamat Datang</p>
-            
-        <p2>Silahkan Masukan data untuk masuk</p2>
-        
-        <div class="form"><form action="submit.php" method="post">
-        <fieldset>
-        <p3>
-            <label for="nama">Nama:</label>
-            <input type="text" id="nama" nama="nama" required placeholder="Masukan nama">
-        </p3>
-            <label for="Password">Password:</label>
-            <input type="text" id="Password" password="password" required placeholder="Masukan password">
 
-            
+    <div class="card">
 
-        </div>
-        <div class="button">
-            <button>Masuk</button>
-        </div>
+        <div class="isi-card">
+            <div class="header">
+                <h1 class="p1">Selamat<br>Datang</h1>
+                <div class="foto-profil"></div>
+            </div>
 
-           
-        </fieldset>
-    </form>
+            <p class="p2">Silahkan memasukan data untuk masuk</p>
+
+            <form>
+                <div class="kotakinput">
+                    <fieldset>
+                        <legend>Email</legend>
+                        <input type="email" placeholder="Masukan email">
+                        <i class="fas fa-envelope"></i>
+                    </fieldset>
+                </div>
+
+                <div class="kotakinput">
+                    <fieldset>
+                        <legend>Nama</legend>
+                        <input type="text" placeholder="Masukan nama">
+                        <i class="fas fa-user"></i>
+                    </fieldset>
+                </div>
+
+                <div class="kotakinput">
+                    <fieldset>
+                        <legend>Password</legend>
+                        <input type="password" placeholder="Masukan password">
+                        <i class="fas fa-eye"></i>
+                    </fieldset>
+                </div>
+
+                <div class="opsi">
+                    <label class="kotakingat">
+                        <input type="checkbox">
+                        ingat saya
+                    </label>
+                    <a href="#" class="lupa-pass">Lupa Password?</a>
+                </div>
+
+                <button type="submit" class="tombol-masuk">Masuk</button>
+            </form>
+        </div>
     </div>
 
 </body>
